@@ -92,3 +92,17 @@ fetch("news.json")
     });
   })
   .catch(err => console.error("Failed to load news:", err));
+  
+  
+
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobileNav');
+
+  hamburger.addEventListener('click', () => {
+    mobileNav.style.display =
+      mobileNav.style.display === 'flex' ? 'none' : 'flex';
+
+    // Animate hamburger into X
+    hamburger.classList.toggle('open');
+  });
+
