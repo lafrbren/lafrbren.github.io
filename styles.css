@@ -335,6 +335,7 @@
             background: white;
             border-radius: 1rem;
             overflow: hidden;
+            width: 100%;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
             border: 1px solid var(--border);
