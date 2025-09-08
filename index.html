@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brendan Laframboise - MSc Graduate In Chemistry</title>
+    <meta name="description" content="MSc Computational Chemistry graduate with expertise in Python, data analysis, automation, and materials modeling. Proven track record in delivering data-driven solutions for complex technical challenges.">
+    <meta name="keywords" content="data science, computational chemistry, Python, automation, materials modeling, VASP, data analysis, technical consulting, pharmaceutical chemistry, biochemistry">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.26.0/plotly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-container">
+                    <div class="logo">Brendan Laframboise</div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#publications">Impact</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <canvas class="molecule-canvas" id="moleculeCanvas"></canvas>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>MSc Graduate in Chemistry</h1>
+                    <div class="hero-subtitle">Recent MSc Graduate Specialized in Computational Chemistry</div>
+                    <p>I transform complex scientific challenges into actionable insights using advanced computational methods, automation, and data analysis. 2+ years developing high-throughput materials discovery workflows and managing large datasets. BSc in Biological and Pharmaceutcial Chemistry, with undergraduate research experience in RNA-based organic synthesis.</p>
+                    
+
+
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-overview">
+            <div class="container">
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Proven skills in data science, automation, and computational modeling with immediate industry applications</p>
+                
+                <div class="skills-grid">
+                  
+                    <div class="skill-category">
+                        <h3>Scientific Computing</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">VASP</span>
+                            <span class="skill-tag">ASE</span>
+                            <span class="skill-tag">Materials Modeling</span>
+                            <span class="skill-tag">Algorithm Development</span>
+                            <span class="skill-tag">High-throughput Computing</span>
+                            <span class="skill-tag">Process Optimization</span>
+                        </div>
+                    </div>
+                    
+                  
+                    <div class="skill-category">
+                        <h3>Programming & Automation</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Python</span>
+                             <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">BASH Scripting</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">LaTeX</span>
+                            <span class="skill-tag">HPC/SLURM</span>
+                            <span class="skill-tag">Linux/Windows</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Data Analysis & Visualization</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Tableau</span>
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">Statistical Analysis</span>
+                        </div>
+                    </div>
+                    
+
+                    <div class="skill-category">
+                        <h3>Laboratory & Analytical</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">HPLC</span>
+                            <span class="skill-tag">GC-MS</span>
+                            <span class="skill-tag">NMR</span>
+                            <span class="skill-tag">UV-Vis</span>
+                            <span class="skill-tag">Method Development</span>
+                            <span class="skill-tag">Quality Control</span>
+                            <span class="skill-tag">Data Integrity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Teaching and Academic Research</p>
+                
+                <div class="experience-timeline">
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <div>
+                                <div class="exp-title">Graduate Research Assistant</div>
+                                <div class="exp-company">University of Guelph</div>
+                            </div>
+                            <div class="exp-duration">Sept 2023 - Aug 2025</div>
+                        </div>
+                        <ul class="exp-achievements">
+                              <li>Conducted high-throughput surface simulations and managed structured data for electrocatalysis research.</li>
+                              <li>Developed a systematic approach towards the computational design of binary alloys, <b>reducing compute cost of high-throughput alloy screening by >85%.</b></li>
+                              <li>Automated data processing and cleaning workflows using Python and Bash.</li>
+                              <li>Created data visualizations and technical documentation to support publications and presentations.</li>
+                              <li>Delivered insights in interdisciplinary meetings and presented work at international conferences.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <div>
+                                <div class="exp-title">Teaching Assistant</div>
+                                <div class="exp-company">University of Guelph</div>
+                            </div>
+                            <div class="exp-duration">Sept 2023 - Apr 2025</div>
+                        </div>
+                        <ul class="exp-achievements">
+                            <li>Evaluated assignments and lab reports for accuracy and consistency in data interpretation</li>
+                            <li>Provided individualized support to students on data analysis and experimental reporting</li>
+                            <li>Reinforced scientific reasoning and attention to detail in written and verbal communication</li>
+                            <li>Implemented standardized grading rubrics improving assessment consistency and feedback quality</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <div>
+                                <div class="exp-title">Undergraduate Research Assistant</div>
+                                <div class="exp-company">University of Guelph</div>
+                            </div>
+                            <div class="exp-duration">Sept 2022 – May 2023</div>
+                        </div>
+                        <ul class="exp-achievements">
+                            <li>Conducted multi-step organic syntheses of nucleoside analogues (RNA monomers) for origins-of-life research</li>
+                            <li>Applied purification and characterization techniques including NMR, HPLC, and mass spectrometry</li>
+                            <li>Maintained detailed experimental records ensuring reproducibility and compliance with lab safety protocols</li>
+                            <li>Built strong foundations in pharmaceutical and biological chemistry, directly applicable to drug discovery and development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section" style="background: var(--light);">
+            <div class="container">
+                <h2 class="section-title">Key Projects</h2>
+                <p class="section-subtitle">Real-world applications of computational methods delivering measurable business value</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title">High-Throughput Materials Screening</div>
+                            <div class="project-type">Process Optimization & Automation</div>
+                        </div>
+                        <div class="project-content">
+                            <p>Developed automated screening method for catalyst optimization, processing 700+ material configurations with minimal manual intervention.</p>
+                            
+                            <div class="project-impact">
+                                <div class="impact-label">Impact</div>
+                                <div class="impact-text">Reduced time-to-discovery and computational costs by >85%, enabling faster product development cycles</div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">VASP</span>
+                                <span class="tech-tag">HPC</span>
+                                <span class="tech-tag">ASE</span>
+                                <span class="tech-tag">Materials Discovery</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title">Predictive Performance Models</div>
+                            <div class="project-type">Data Science & Electronic Structure Theory</div>
+                        </div>
+                        <div class="project-content">
+                            <p>Built computational models predicting experimentally relevent materials, enabling data-driven design decisions before expensive synthesis.</p>
+                            
+                            <div class="project-impact">
+                                <div class="impact-label">Impact</div>
+                                <div class="impact-text">Can reduce reduce dependence for experimental trials, saving significant R&D costs and accelerating product development</div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Statistical Analysis</span>
+                                <span class="tech-tag">Predictive Modeling</span>
+                                <span class="tech-tag">Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title">Cross-Functional Collaboration Platform</div>
+                            <div class="project-type">Technical Communication & Documentation</div>
+                        </div>
+                        <div class="project-content">
+                            <p>Collaborated with experimental teams to validate results using computational methods (DFT), delivering a peer-reviewed publication in a high-impact journal <em>(ACS)</em>.</p>
+                            
+                            <div class="project-impact">
+                                <div class="impact-label">Impact</div>
+                                <div class="impact-text">Facilitated successful technology transfer and established new academic partnerships</div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Project Management</span>
+                                <span class="tech-tag">Technical Writing</span>
+                                <span class="tech-tag">Inderdeplicinary Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title">Origins of Life</div>
+                            <div class="project-type">RNA-based Organic Synthesis</div>
+                        </div>
+                        <div class="project-content">
+                            <p>Multi-step organic synthesis of modified RNA monomers to support the RNA world hypothesis.</p>
+                            
+                            <div class="project-impact">
+                                <div class="impact-label">Impact</div>
+                                <div class="impact-text">Preliminary work that served as the basis for future research projects, resulting in a significant impact on origins of life research.</div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">HPLC</span>
+                                <span class="tech-tag">Method Validation</span>
+                                <span class="tech-tag">Regulatory Compliance</span>
+                                <span class="tech-tag">Statistical Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2 class="section-title">Published Results</h2>
+                <p class="section-subtitle">Peer-reviewed research demonstrating proven ability to deliver high-impact technical solutions</p>
+                
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <div class="pub-title">Computational Design of Pt-M Binary Alloys for Enhanced Ammonia Oxidation Electrocatalysis</div>
+                        <div class="pub-authors"><strong>B. J. R. Laframboise</strong>, J. Coveny, J. Zhou, L. D. Chen</div>
+                        <div class="pub-journal">ChemElectroChem, 2025 (Accepted)</div>
+                        <div class="pub-impact">
+                            <span class="impact-highlight">Key Innovation:</span> Improved upon systematic screening methodology and proved the importance of screening for experimentally relevant alloy configurations using electronic structure theory — directly applicable to industrial R&D workflows. Showed that Pt-Ir alloys are more active for ammonia oxidation than benchmark Pt.
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="pub-title">How Ir-Rh Alloys Improve Electrochemical Ammonia Oxidation Activity Studied by Density Functional Theory</div>
+                        <div class="pub-authors"><strong>B. J. R. Laframboise</strong>, S. J. Johnston, L. D. Chen</div>
+                        <div class="pub-journal">ChemCatChem, 2024</div>
+                        <div class="pub-impact">
+                            <span class="impact-highlight">Commercial Relevance:</span> Introduced a novel configurational entropy-base approach towards computational binary alloy design. Showed mecahnistically why Ir-Rh alloys are more active than either Ir or Rh individually.
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="pub-title">Insights into Conversion of CO₂ to Formic Acid at Nanostructured CuBi Catalyst</div>
+                        <div class="pub-authors">N. Sabouhanian, <strong>B. J. R. Laframboise</strong>, J. Quintal, Z. Su, L. D. Chen, J. Lipkowski, A. Chen</div>
+                        <div class="pub-journal">ACS Applied Materials & Interfaces, 2025 (Submitted)</div>
+                        <div class="pub-impact">
+                            <span class="impact-highlight">Industry Impact:</span> Cross-functional collaboration combining computational predictions with experimental validation
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="pub-title">A DFT Investigation of Ammonia Oxidation on M-doped β-Ni(OH)₂ Surfaces</div>
+                        <div class="pub-authors">S. J. Johnston, R. M. Choueiri, X. Liu, <strong>B. J. R. Laframboise</strong>, S. W. Tatarchuk, L. D. Chen</div>
+                        <div class="pub-journal">Journal of Physical Chemistry C, 2023</div>
+                        <div class="pub-impact">
+                            <span class="impact-highlight">Technical Achievement:</span> Demonstrated ability to contribute to high-impact collaborative projects and deliver publication-quality results
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recognition & Achievements -->
+                <div style="margin-top: 4rem;">
+                    <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--dark);">Recognition & Achievements</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                        <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--success);">
+                            <div style="font-size: 1.2rem; font-weight: 600; color: var(--dark); margin-bottom: 0.5rem;">Ontario Graduate Scholarship</div>
+                            <div style="color: var(--success); font-weight: 600; margin-bottom: 0.5rem;">$15,000 CAD</div>
+                            <div style="color: var(--text-light); font-size: 0.9rem;">Competitive provincial scholarship recognizing research excellence and potential for industry impact</div>
+                        </div>
+                        
+                        <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--primary);">
+                            <div style="font-size: 1.2rem; font-weight: 600; color: var(--dark); margin-bottom: 0.5rem;">International Conference Presentations</div>
+                            <div style="color: var(--primary); font-weight: 600; margin-bottom: 0.5rem;">4 Presentations</div>
+                            <div style="color: var(--text-light); font-size: 0.9rem;">Oral and poster presentations at national and international venues, demonstrating communication skills</div>
+                        </div>
+                        
+                        <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--accent);">
+                            <div style="font-size: 1.2rem; font-weight: 600; color: var(--dark); margin-bottom: 0.5rem;">Peer Review Experience</div>
+                            <div style="color: var(--accent); font-weight: 600; margin-bottom: 0.5rem;">2 Journals</div>
+                            <div style="color: var(--text-light); font-size: 0.9rem;">Contributing to scientific quality control and staying current with industry developments</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!-- News Section -->
+        <section id="news" class="section news-section">
+          <div class="container">
+            <h2 class="section-title">News & Accomplishments</h2>
+            <p class="section-subtitle">Latest highlights and milestones</p>
+            <div id="newsFeed" class="news-feed"></div>
+          </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title" style="color: white;">Ready to Contribute</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's discuss how I can help your orginization make a difference</h3>
+                        <p style="margin-bottom: 2rem; color: #cbd5e1; font-size: 1.1rem;">
+                            I'm seeking opportunities where I can apply my analytical thinking, problem-solving experience, and laboratory skills to contribute to meaningful work. Open to roles in R&D, materials discovery, phramaceuticals, data science/analytics, technical consulting, and related fields.
+                        </p>
+                        
+                        <div class="availability-status">
+                            <div class="availability-label">Current Status</div>
+                            <div style="color: white;">Available immediately for full-time positions across Canada and internationally</div>
+                        </div>
+                        
+                        <div class="contact-item">
+
+                            <div>
+                                <strong>Email</strong><br>
+                                <a href="mailto:lafrbren@gmail.com" style="color: var(--accent); text-decoration: none;">lafrbren@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+
+                            <div>
+                                <strong>Phone</strong><br>
+                                <span style="color: #cbd5e1;">(289) 928-1842</span>
+                            </div>
+                        </div>
+                        
+                 <div class="contact-item">
+                      <div>
+                        <a href="https://www.linkedin.com/in/brendan-l-95b82a122/" target="_blank" class="btn btn-primary">
+                          LinkedIn
+                        </a>
+                      </div>
+                    </div>
+                        
+                        <div class="contact-item">
+
+                            <div>
+                                <strong>Location</strong><br>
+                                <span style="color: #cbd5e1;">Guelph, Ontario, Canada</span><br>
+                                <small style="color: #94a3b8;">Open to relocation</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-visual">
+                        <div style="background: rgba(255, 255, 255, 0.1); border-radius: 1rem; padding: 2rem; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <h4 style="color: white; margin-bottom: 1.5rem; font-size: 1.3rem;">What I Bring to Your Team</h4>
+                            <ul style="list-style: none; color: #cbd5e1; line-height: 1.8;">
+                                <li style="margin-bottom: 1rem;">
+                                    <span style="color: var(--accent); font-weight: bold;">Results-Oriented:</span><br>
+                                
+                                        <span style="font-size: 0.9rem;">Delivered automated workflows and high-throughput simulations, making a significant impact in the computational materials discovery literature</span>
+                                    </li>
+                                    <li style="margin-bottom: 1rem;">
+                                        <span style="color: var(--accent); font-weight: bold;">Technical Versatility:</span><br>
+                                        <span style="font-size: 0.9rem;">Proficiency across computational modeling (DFT, VASP), data analysis (Python, Tableau), and laboratory methods (HPLC, GC-MS, NMR, organic synthesis)</span>
+                                    </li>
+                                    <li style="margin-bottom: 1rem;">
+                                        <span style="color: var(--accent); font-weight: bold;">Cross-Functional Collaboration:</span><br>
+                                        <span style="font-size: 0.9rem;">Worked with computational and experimental teams, contributing to peer-reviewed publications</span>
+                                    </li>
+                                    <li style="margin-bottom: 1rem;">
+                                        <span style="color: var(--accent); font-weight: bold;">Continuous Learning:</span><br>
+                                        <span style="font-size: 0.9rem;">Background spanning pharmaceutical chemistry courses, organic synthesis, and advanced computational chemistry — adaptable to R&D, process optimization, and data-driven roles</span>
+                                    </li>
+                                </ul>
+
+                            <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+                                <p style="color: var(--accent); font-weight: 600; margin-bottom: 1rem; font-size: 1rem;">Target Roles:</p>
+                                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                    <span style="background: rgba(6, 182, 212, 0.2); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.85rem; border: 1px solid var(--accent);">Research Scientist</span>
+                                    <span style="background: rgba(6, 182, 212, 0.2); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.85rem; border: 1px solid var(--accent);">Materials Discovery</span>
+                                    <span style="background: rgba(6, 182, 212, 0.2); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.85rem; border: 1px solid var(--accent);">Phramaceuticals</span>
+                                    <span style="background: rgba(6, 182, 212, 0.2); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.85rem; border: 1px solid var(--accent);">Data Scientist/Analytics</span>
+                                    <span style="background: rgba(6, 182, 212, 0.2); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.85rem; border: 1px solid var(--accent);">Technical Consulting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer style="background: var(--dark); color: white; text-align: center; padding: 3rem 0 2rem; border-top: 1px solid #334155;">
+            <div class="container">
+                <div style="margin-bottom: 2rem;">
+                    <div style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-bottom: 2rem;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem; color: #cbd5e1;">
+                            <span style="color: var(--accent);">📧</span>
+                            <span>lafrbren@gmail.com</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem; color: #cbd5e1;">
+                            <span style="color: var(--accent);">📞</span>
+                            <span>(289) 928-1842</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem; color: #cbd5e1;">
+                            <span style="color: var(--accent);">📍</span>
+                            <span>Guelph, Ontario, Canada</span>
+                        </div>
+                    </div>
+                </div>
+                <p>Brendan Laframboise</p>
+            </div>
+        </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
