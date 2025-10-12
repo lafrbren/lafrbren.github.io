@@ -43,7 +43,7 @@
     opacity: 1;
   }
 }
-.sqs-button-element--primary[enabled],
+.sqs-button-element--primary[disabled],
 .sqs-button-element--secondary[disabled],
 .sqs-button-element--tertiary[disabled] {
   pointer-events: none !important;
@@ -8176,3 +8176,8 @@ _:-ms-fullscreen .clipIn:not([data-override-initial-global-animation]),
 .product-detail .product-meta .product-add-ons .product-variants .variant-select-wrapper:after {
   right: 13px;
 }
+.sqs-button-element--primary,
+.download-btn {
+  text-decoration: none !important;
+}
+
