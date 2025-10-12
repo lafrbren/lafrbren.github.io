@@ -43,7 +43,7 @@
     opacity: 1;
   }
 }
-.sqs-button-element--primary[disabled],
+.sqs-button-element--primary[enabled],
 .sqs-button-element--secondary[disabled],
 .sqs-button-element--tertiary[disabled] {
   pointer-events: none !important;
